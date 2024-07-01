@@ -1,0 +1,100 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+
+h1{
+    background-color: #081b31;
+    color: white;
+    height: 5rem;
+    text-align: center;
+    padding-top: 2rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.choice{
+    height: 165px;
+    width: 165px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+
+}
+.choice:hover{
+    cursor: pointer;
+    background-color: #081b31;
+}
+
+img{
+    height: 150px;
+    width: 150px; 
+    object-fit: cover;
+    border-radius: 50%;
+    /* margin-left: 1rem; */
+    
+}
+
+.choices{
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+    gap: 2rem;
+    
+}
+
+.score-board{
+    margin-top: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    gap: 3rem;
+}
+
+#user-score,#comp-score{
+    font-size: 4rem;
+}
+
+#msg{
+    background-color: #081b31;
+    color: white;
+    font-size: 2rem;
+    /* margin-top: 5rem; */
+    /* width: 500px; */
+    display: inline;
+    border-radius: 15px;
+    padding: 1rem;
+   
+
+}
+.msgcontainer{
+    margin-top: 3rem;
+}
+
+.btnContainer{
+    margin-top: 3rem;
+    /* color: red; */
+
+}
+
+#btn{
+     background-color: #548687;
+    color: white;
+    display: inline;
+    width: 9rem;
+    height: 3rem;
+    border-radius: 25px;
+    font-size: 1.2rem;
+    border:none;
+    /* font-weight: 300; */
+}
+
+#btn:hover{
+    border: 3.5px solid #081b31;
+    transform: scale(1.1);
+}
